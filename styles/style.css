@@ -1,4 +1,3 @@
-
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +7,23 @@
 body {
     background-color: #f6f8fa;
 }
+
+/* Utility  */
+
+.button-style {
+    padding: 10px;
+    border-radius: 10%;
+    border-style: none;
+}
+
+
+
+
+
+
+
+
+/* Regole CSS */
 
 .header-main {
     height: 80px;
@@ -30,5 +46,31 @@ body {
 .wrapper {
     background-color: white;
     width: 700px;
-    margin: 0 auto;
+    margin: 40px auto;
+}
+
+.button-bar {
+    width: 350px;
+    height: 50px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.main-section {
+    padding-bottom: 5px;
+}
+
+.button-task {
+    background-color: #44acee;
+    border-color: #44acee;
+    color: white;
+
+}
+
+.button-section {
+    background-color: white;
+    color: lightgrey;
+    border-color: lightgrey;
+    border: 1px solid lightgrey;
+    padding: 8px;
 }
