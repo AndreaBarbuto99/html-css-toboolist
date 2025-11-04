@@ -16,6 +16,9 @@ body {
     border-style: none;
 }
 
+.padding-all {
+    padding:15px;
+}
 
 
 
@@ -50,15 +53,10 @@ body {
 }
 
 .button-bar {
-    width: 350px;
-    height: 50px;
-    padding-left: 40px;
-    padding-top: 15px;
+    border-bottom: 3px solid #f6f8fa;
+    
 }
 
-.main-section {
-    padding-bottom: 5px;
-}
 
 .button-task {
     background-color: #44acee;
@@ -73,4 +71,22 @@ body {
     border-color: lightgrey;
     border: 1px solid lightgrey;
     padding: 8px;
+}
+
+.editorial-span {
+    background-color: #44acee;
+    border: 1px solid #44acee;
+    color: white;
+    padding: 3px;
+    border-width: 3px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
 }
