@@ -26,3 +26,9 @@ body {
 .header-logo {
     vertical-align: middle;
 }
+
+.wrapper {
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+}
